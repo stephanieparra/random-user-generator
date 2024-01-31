@@ -1,4 +1,5 @@
 const randomFolks = document.querySelector(".random-peeps");
+const selectUserNumber = document.querySelector("#users");
 
 const getData = async function () {
   const usersRequest = await fetch("https://randomuser.me/api?results=5");
